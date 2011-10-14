@@ -1,0 +1,26 @@
+Entendendo os diretórios e arquivos:
+
+- Gemfile - Esse arquivo permite que você especifique quais são as dependências necessárias para a sua aplicação Rails.
+
+- README - Um breve manual de instruções para a sua aplicação. Você deve editar esse arquivo para dizer a terceiros o que a sua aplicação faz, como configurá-la, e etc.
+
+- Rakefile - Esse arquivo localiza e carrega tarefas que podem ser executadas por linha de comando. As definições de tarefas são definidas através dos componentes do Rails. Em vez de mudar o Rakefile, você deve adicionar suas próprias tarefas, adicionando arquivos ao diretório lib/taks da sua aplicação.
+
+- app/ - Contém os controllers, models, views e assets para para a sua aplicação.
+
+- config/ - Configure as regras de tempo de execução da sua aplicação, rotas, bancos de dados e mais.
+
+- config.ru - Configuração Rack para servidores baseados em Rack, usados para inicar a aplicação.
+
+- lib/ - Modulos extendidos para a sua aplicação.
+
+- log/ - Arquivos de log da aplicação
+
+- public/ - A única pasta vista pelo mundo como é. Contém os arquivos estáticos e recursos compilados.
+
+- script/ - Contem os scripts rails que iniciam a sua aplicação e podem conter outros scripts que você usa para implantar sua aplicação.
+
+- test/ - Testes unitários, fixtures, e outros aparatos de teste.
+- tmp/ - Arquivos temporários.
+
+- vendor/ - Um lugar para todo o código de terceiros. 
